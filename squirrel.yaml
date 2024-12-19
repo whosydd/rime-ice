@@ -19,11 +19,18 @@ keyboard_layout: last
 # for veteran chord-typist
 chord_duration: 0.1 # seconds
 # options: always | never | appropriate
-show_notifications_when: appropriate
+# show_notifications_when: appropriate
 
 # ascii_mode、inline、no_inline、vim_mode 等等设定
 # 可参考 /Library/Input Methods/Squirrel.app/Contents/SharedSupport/squirrel.yaml
 app_options:
+  com.microsoft.VSCode: # Visual Studio Code
+    ascii_mode: false
+    ascii_punct: true # 中文状态输出英文标点(半角)
+  com.microsoft.VSCodeInsiders: # Visual Studio Code
+    ascii_mode: false
+    ascii_punct: true # 中文状态输出英文标点(半角)
+
   # com.apple.Spotlight:
   #   ascii_mode: true    # 开启默认英文
   # com.microsoft.VSCode:
